@@ -5,10 +5,10 @@ import (
 	_ "github.com/swaggo/files"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
-	_ "sidecar-template/docs"
-	"sidecar-template/internal/api/handlers"
-	"sidecar-template/internal/controllers"
-	"sidecar-template/internal/services"
+	_ "go-api-template/docs"
+	"go-api-template/internal/api/handlers"
+	"go-api-template/internal/controllers"
+	"go-api-template/internal/services"
 )
 
 // @title           Swagger Example API

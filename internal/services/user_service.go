@@ -1,6 +1,10 @@
 package services
 
-import "sidecar-template/pkg/models"
+import "go-api-template/pkg/models"
+
+type IUserService interface {
+	GetUserByID(userID int) (*models.User, error)
+}
 
 type UserService struct {
 	// Add any dependencies, e.g., database client

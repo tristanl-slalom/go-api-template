@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"sidecar-template/internal/controllers"
+	"go-api-template/internal/controllers"
 )
 
 type UserHandler struct {

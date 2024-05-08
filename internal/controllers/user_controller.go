@@ -1,15 +1,15 @@
 package controllers
 
 import (
-	"sidecar-template/internal/services"
-	"sidecar-template/pkg/models"
+	"go-api-template/internal/services"
+	"go-api-template/pkg/models"
 )
 
 type UserController struct {
-	userService *services.UserService
+	userService services.IUserService
 }
 
-func NewUserController(us *services.UserService) *UserController {
+func NewUserController(us services.IUserService) *UserController {
 	return &UserController{userService: us}
 }
 
